@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website</title>
+  
+    <!-- google fonts cdn -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <!-- font Awesome -->
+      <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+      <!-- font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <!-- Animate.css -->
+       <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+       <!-- Animate.css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+       <!-- Bootstrap.css -->
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Bootstrap.css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- style.css -->
+         <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar section -->
+     <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <img src="./images/Object.png" alt="Object" class="ms-3">
+    <img src="./images/E-Learning.png" alt="text">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-secondary  px-5" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fw-bold text-dark" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Instructors</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <form class="d-flex gap-3" role="search">
+        <img src="./images/Button.png" alt="search">
+       <button class="btn light-purple rounded-pill me-3 py-2 px-3" type="submit"> <i class="fa-regular fa-user me-2"></i>Sign Up</button>
+        <button class="btn outline-purple text-purple rounded-pill px-4 " type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero section -->
+<section class="hero-section py-5 mt-5">
+  <div class="container">
+   
+    <div class="row align-items-center">
+      
+      
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <span class="badge bg-white text-purple rounded-pill px-3 py-2 mb-4 shadow-sm" style="border: 1px solid #eee;">
+  <i class="fa-solid fa-star me-1"></i> Over 10,000+ Students Worldwide
+</span>
+     <h1 class="fw-bold mt-3  mb-4">Unlock Your Potential With <br><span class="text-purple">Online Learning</span></h1>
+     <div class="d-flex gap-3 mb-5">
+        <button class="btn light-purple rounded-pill me-3 fw-semibold fs-5 py-3 px-4 " type="submit"> </i>Start Learning Now</button>
+        <button class="btn bg-white shadow-sm text-dark  rounded-pill px-4 fw-semibold fs-5 py-3 px-4 border-light" type="submit"><i class="fa-regular fa-circle-play me-2 text-purple"></i> Watch Video</button>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-3">
+       <img src="./images/Container-b.png" alt="container-b" >
+       </div>
+      </div>
+
+      
+      <div class="col-lg-6 text-center">
+        <img src="./images/Container.png" alt="container">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section class="courses-section py-5">
+  <div class="container">
+    
+    <div class="d-flex justify-content-between align-items-end mb-4">
+      
+      <!-- الجزء اللي على الشمال -->
+      <div style="max-width: 300px;">
+        <span class="fw-bold" style="color: #815EC1;"><i class="fa-solid fa-arrow-trend-up"></i> Featured Courses</span>
+         <h2 class="fw-bold  fs-1">Most Popular<span class="text-purple"> Courses</span></h2>
+
+        <p class="text-secondary small mb-0 mt-2">Hand-picked courses from our top instructors, loved by thousands of learners worldwide.</p>
+      </div>
+
+      <a href="#" class="text-decoration-none fw-bold text-purple" >View All Courses <i class="fa-solid fa-chevron-right small"></i></a>
+    </div>
+
+   
+    <div class="d-flex gap-3 mb-5">
+      
+      <button class="btn light-purple rounded-pill px-4">All</button>
+      
+      <button class="btn btn-outline-secondary rounded-pill px-4 border-light text-dark fw-medium">Development</button>
+      <button class="btn btn-outline-secondary rounded-pill px-4 border-light text-dark fw-medium">Design</button>
+      <button class="btn btn-outline-secondary rounded-pill px-4 border-light text-dark fw-medium">Data Science</button>
+      <button class="btn btn-outline-secondary rounded-pill px-4 border-light text-dark fw-medium">Marketing</button>
+      <button class="btn btn-outline-secondary rounded-pill px-4 border-light text-dark fw-medium">Business</button>
+    </div>
+<!-- grid system1 -->
+ <div class="row g-4">
+     <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <img src="./images/Image (Complete Web Development Bootcamp).png" class="card-img-top" alt="Web Development">
+          
+          <div class="card-body  h-100 d-flex flex-column  p-4">
+            <h5 class="card-title fw-bold mb-2">Complete Web Development Bootcamp</h5>
+            <p class="text-muted small mb-3">Dr. Sarah Mohamed</p>
+            
+            <!-- star-rating-->
+            <div class="d-flex align-items-center gap-1 mb-3">
+              <div class="text-warning small">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="fw-bold ms-1">4.9</span> 
+              <span class="text-muted small">(12,840)</span>
+            </div>
+
+            <!-- time & students -->
+            <div class="d-flex gap-4 text-muted small mb-3">
+              <span><i class="fa-regular fa-clock"></i> 52h</span>
+              <span><i class="fa-solid fa-user-group"></i> 48K students</span>
+            </div>
+           
+
+          <!-- price & booking -->
+            <div class="d-flex justify-content-between align-items-center mt-3 mt-auto">
+              <span class="fs-4 fw-bold">$89.99</span>
+              <button class="btn rounded-pill px-4 py-2 fw-medium light-lavender">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- grid system 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <img src="./images/Container-2.png" class="card-img-top" alt="Web Development">
+          
+          <div class="card-body h-100 d-flex flex-column  p-4">
+            <h5 class="card-title fw-bold mb-2">Machine Learning & AI Mastery</h5>
+            <p class="text-muted small mb-3">Dr. Ahmed Ramy</p>
+            
+            <!-- star-rating-->
+            <div class="d-flex align-items-center gap-1 mb-3">
+              <div class="text-warning small">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="fw-bold ms-1">4.9</span> 
+              <span class="text-muted small">(12,500)</span>
+            </div>
+
+            <!-- time & students -->
+            <div class="d-flex gap-4 text-muted small mb-3">
+              <span><i class="fa-regular fa-clock"></i> 52h</span>
+              <span><i class="fa-solid fa-user-group"></i> 48K students</span>
+            </div>
+            
+
+          <!-- price & booking -->
+            <div class="d-flex justify-content-between align-items-center mt-3 mt-auto">
+              <span class="fs-4 fw-bold">$77.99</span>
+              <button class="btn rounded-pill px-4 py-2 fw-medium light-lavender">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- grid system 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <img src="./images/Container-3.png" class="card-img-top" alt="Web Development">
+          
+          <div class="card-body h-100 d-flex flex-column  p-4">
+            <h5 class="card-title fw-bold mb-2">UI/UX Design:Zero to Pro</h5>
+            <p class="text-muted small mb-3">Dr. Sarah Ayman</p>
+            
+            <!-- star-rating-->
+            <div class="d-flex align-items-center gap-1 mb-3">
+              <div class="text-warning small">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="fw-bold ms-1">4.6</span> 
+              <span class="text-muted small">(12,840)</span>
+            </div>
+
+            <!-- time & students -->
+            <div class="d-flex gap-4 text-muted small mb-3">
+              <span><i class="fa-regular fa-clock"></i> 52h</span>
+              <span><i class="fa-solid fa-user-group"></i> 48K students</span>
+            </div>
+            
+          
+
+          <!-- price & booking -->
+            <div class="d-flex justify-content-between align-items-center mt-3 mt-auto">
+              <span class="fs-4 fw-bold">$100.99</span>
+              <button class="btn rounded-pill px-4 py-2 fw-medium light-lavender">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- grid system 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <img src="./images/Container-4.png" class="card-img-top" alt="Web Development">
+          
+          <div class="card-body h-100 d-flex flex-column  p-4">
+            <h5 class="card-title fw-bold mb-2">Business Strategy & Leadership</h5>
+            <p class="text-muted small mb-3">Dr. Aymen Amgad</p>
+            
+            <!-- star-rating-->
+            <div class="d-flex align-items-center gap-1 mb-3">
+              <div class="text-warning small">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="fw-bold ms-1">4.7</span> 
+              <span class="text-muted small">(12,840)</span>
+            </div>
+
+            <!-- time & students -->
+            <div class="d-flex gap-4 text-muted small mb-3">
+              <span><i class="fa-regular fa-clock"></i> 52h</span>
+              <span><i class="fa-solid fa-user-group"></i> 48K students</span>
+            </div>
+            
+           
+
+          <!-- price & booking -->
+            <div class="d-flex justify-content-between align-items-center mt-3 mt-auto">
+              <span class="fs-4 fw-bold">$97.99</span>
+              <button class="btn rounded-pill px-4 py-2 fw-medium light-lavender">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- grid system 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <img src="./images/Image (Digital Marketing Mastery).png" class="card-img-top" alt="Web Development">
+          
+          <div class="card-body h-100 d-flex flex-column  p-4">
+            <h5 class="card-title fw-bold mb-2">Digital Marketing Mastery</h5>
+            <p class="text-muted small mb-3">Dr. Sarah Johnson</p>
+            
+            <!-- star-rating-->
+            <div class="d-flex align-items-center gap-1 mb-3">
+              <div class="text-warning small">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="fw-bold ms-1">4.9</span> 
+              <span class="text-muted small">(12,340)</span>
+            </div>
+
+            <!-- time & students -->
+            <div class="d-flex gap-4 text-muted small mb-3">
+              <span><i class="fa-regular fa-clock"></i> 52h</span>
+              <span><i class="fa-solid fa-user-group"></i> 48K students</span>
+            </div>
+            
+           
+
+          <!-- price & booking -->
+            <div class="d-flex justify-content-between align-items-center mt-3 mt-auto">
+              <span class="fs-4 fw-bold">$87.99</span>
+              <button class="btn rounded-pill px-4 py-2 fw-medium light-lavender">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid system 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          <img src="./images/Container-6.png" class="card-img-top" alt="Web Development">
+          
+          <div class="card-body  h-100 d-flex flex-column p-4">
+            <h5 class="card-title fw-bold mb-2">Photography Masterclass</h5>
+            <p class="text-muted small mb-3">Dr. Sarah Johnson</p>
+            
+            <!-- star-rating-->
+            <div class="d-flex align-items-center gap-1 mb-3">
+              <div class="text-warning small">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span class="fw-bold ms-1">4.9</span> 
+              <span class="text-muted small">(11,840)</span>
+            </div>
+
+            <!-- time & students -->
+            <div class="d-flex gap-4 text-muted small mb-3">
+              <span><i class="fa-regular fa-clock"></i> 52h</span>
+              <span><i class="fa-solid fa-user-group"></i> 48K students</span>
+            </div>
+            
+           
+
+          <!-- price & booking -->
+            <div class="d-flex justify-content-between align-items-center mt-3 mt-auto">
+              <span class="fs-4 fw-bold">$111.99</span>
+              <button class="btn rounded-pill px-4 py-2 fw-medium light-lavender">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+      
+
+    <!--Load More -->
+    <div class="text-center mt-5">
+      <p class=" small fw-medium mb-3 text-dark">Showing 6 of 12,000+ courses</p>
+      
+      <button class="btn outline-purple rounded-4 px-5 py-3 fw-bold bg-white text-purple"><i class="fa-solid fa-book-open me-2"></i> Load More Courses</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories-section py-5 mt-4">
+  <div class="container">
+    
+    <!-- header-->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold mb-3">Top Categories</h2>
+      <p class="text-muted mx-auto" style="max-width: 650px;">
+        Explore thousands of courses spanning a multitude of categories, designed to help you advance your career or discover a new passion.
+      </p>
+    </div>
+<div class="row g-4">
+   <!-- grid cards1-->
+    
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4 ">
+          <div class="card-body ">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+              <i class="fa-solid fa-pen-nib fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">Design</h5>
+            <p class="text-muted small mb-0">450+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card1-->
+
+      <!-- grid cards2-->
+  
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+             <i class="fa-solid fa-code fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">Development</h5>
+            <p class="text-muted small mb-0">850+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card2-->
+
+
+      <!-- grid cards3-->
+ 
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+            <i class="fa-solid fa-arrow-trend-up fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">Marketing</h5>
+            <p class="text-muted small mb-0">320+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card3-->
+
+
+      <!-- grid cards4-->
+   
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+             <i class="fa-solid fa-briefcase fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">Business</h5>
+            <p class="text-muted small mb-0">540+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card4-->
+
+
+      <!-- grid cards5-->
+   
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+              <i class="fa-solid fa-microchip fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">AI & Data Science</h5>
+            <p class="text-muted small mb-0">280+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card5-->
+
+
+      <!-- grid cards6-->
+
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+             <i class="fa-solid fa-display fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">IT & Software</h5>
+            <p class="text-muted small mb-0">620+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card6-->
+
+
+      <!-- grid cards7-->
+  
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+              <i class="fa-solid fa-camera fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">Photography</h5>
+            <p class="text-muted small mb-0">190+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card7-->
+
+
+      <!-- grid cards8-->
+  
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        
+        <div class="card h-100 border border-light shadow-sm rounded-4 text-center py-4">
+          <div class="card-body">
+            
+            
+            <div class="d-inline-flex justify-content-center align-items-center rounded-3 mb-3 categories-box">
+             <i class="fa-solid fa-music fs-3"></i>
+            </div>
+            
+            <h5 class="fw-bold mb-2">Music</h5>
+            <p class="text-muted small mb-0">150+ Courses</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 8-->
+
+
+   
+    </div>
+
+    <div class="text-center mt-5">
+      <button class="btn outline-lavender rounded-pill px-4 py-3 fw-bold fs-5">
+        View All Categories <i class="fa-solid fa-arrow-right ms-2"></i>
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- How It Works Section -->
+<section class="py-5">
+  <div class="container text-center">
+    
+    <!-- header-->
+    <div class="mb-5">
+      <span class="fw-bold small text-purple">Process</span>
+      <h2 class="fw-bold mt-2">How It Works</h2>
+      <p class="text-muted mx-auto mt-3 max-width" >
+        Start learning today with our simple and straightforward three-step process designed to get you up and running quickly.
+      </p>
+    </div>
+
+    <!-- Steps-grid -->
+  
+    <div class="row pt-4 text-center position-relative ">
+      <div class="position-absolute border-top border-2 d-none d-md-block line-purple z-0"></div>
+      <div class="col-lg-4">
+<!-- cricle 1 -->
+<div class="position-relative bg-white rounded-circle d-inline-block p-3 shadow shadow-purple mb-4 z-1">
+<div class="rounded-circle d-flex justify-content-center align-items-center categories-box">
+<i class="fa-solid fa-magnifying-glass fs-3"></i>
+</div>
+<span class="position-absolute  translate-middle border border-white border-4 badge bg-warning rounded-circle d-flex align-items-center justify-content-center mini-circle ">1</span>
+</div>
+<h5 class="text-dark fw-bold">Browse Courses</h5>
+<p class="text-muted small ">Explore our wide variety of courses from basic to advanced level and find what suits your goals. </p> 
+      </div>
+
+<!-- cricle 2 -->
+ <div class="col-lg-4">
+<div class="position-relative bg-white rounded-circle d-inline-block p-3 shadow shadow-purple mb-4 z-1">
+<div class="rounded-circle d-flex justify-content-center align-items-center categories-box">
+<i class="fa-solid fa-tv fs-3"></i>
+</div>
+<span class="position-absolute  translate-middle border border-white border-4 badge light-purple rounded-circle d-flex align-items-center justify-content-center mini-circle ">2</span>
+</div>
+<h5 class="text-dark fw-bold">Enroll & Learn</h5>
+<p class="text-muted small ">Purchase the course and start learning at your own pace with lifetime access to materials. </p> 
+</div>
+
+<!-- cricle 3 -->
+ <div class="col-lg-4">
+<div class="position-relative bg-white rounded-circle d-inline-block p-3 shadow shadow-purple mb-4 z-1">
+<div class="rounded-circle d-flex justify-content-center align-items-center categories-box">
+<i class="fa-solid fa-award fs-3"></i>
+</div>
+<span class="position-absolute  translate-middle border border-white border-4 badge bg-green rounded-circle d-flex align-items-center justify-content-center mini-circle ">3</span>
+</div>
+<h5 class="text-dark fw-bold">Get Certified</h5>
+<p class="text-muted small ">Complete the course successfully and earn a certificate to showcase your newly acquired skills. </p> 
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Popper.js & Bootstrap.js -->
+ <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+ <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <!-- Bootstrap.js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
